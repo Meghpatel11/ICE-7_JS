@@ -55,7 +55,7 @@ getPictures = () => {
     const url = MAIN_URL.replace('<KEY>', PRIMARY_KEY);
 
 
-    console.log("URL: $(url)");
+    console.log(`URL: ${url}`);
 
     pics = [];
     fetch(url)
